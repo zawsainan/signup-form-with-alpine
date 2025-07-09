@@ -15,6 +15,11 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <style>
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
   </head>
   <body>
     <div class="container py-5">
@@ -109,6 +114,7 @@
           <div
             class="card shadow rounded-4 p-3 w-100 position-absolute top-0 end-0"
             x-show="showModal"
+            x-cloak
           >
             <h4 class="card-title mb-4 text-center text-primary">
               Your Information
